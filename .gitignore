@@ -1,0 +1,7 @@
+.env
+venv
+test.py
+chroma_db
+ArtOfWar.pdf
+SCPH-90002CB_90003CB_PS2_UG_EN.pdf
+rag_chroma_db

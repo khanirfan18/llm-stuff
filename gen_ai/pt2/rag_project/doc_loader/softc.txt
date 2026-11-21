@@ -1,0 +1,241 @@
+SOFT COMPUTING – STUDY NOTES
+
+1.  INTRODUCTION
+
+Soft Computing is a group of computational techniques used to solve
+complex problems that are difficult to model precisely using
+conventional methods. It accepts approximation, uncertainty, imprecision
+and partial truth to produce practical solutions.
+
+The term Soft Computing is associated with Lotfi A. Zadeh.
+
+Main idea: Instead of always searching for an exact solution, soft
+computing aims to find a good, robust and acceptable solution, often by
+learning from data or reasoning with uncertain information.
+
+2.  CHARACTERISTICS OF SOFT COMPUTING
+
+-   Handles uncertainty, vagueness and incomplete information.
+-   Produces approximate rather than necessarily exact solutions.
+-   Can learn and adapt from experience or data.
+-   Is generally tolerant of imprecision and partial failure.
+-   Often provides robust solutions for complex, nonlinear problems.
+-   Can be combined with other techniques to improve performance.
+
+3.  HARD COMPUTING VS SOFT COMPUTING
+
+Hard Computing: - Requires precise input and clearly defined models. -
+Uses exact algorithms and deterministic logic. - Usually expects an
+exact output. - Less suitable when information is uncertain or
+incomplete.
+
+Soft Computing: - Can work with imprecise, uncertain or incomplete
+input. - Uses methods such as fuzzy logic, neural networks and
+evolutionary algorithms. - Often produces approximate or near-optimal
+output. - Suitable for complex real-world problems.
+
+4.  MAJOR TECHNIQUES OF SOFT COMPUTING
+
+A. FUZZY LOGIC
+
+Fuzzy Logic is a reasoning method in which truth values can take any
+value between 0 and 1, rather than only 0 or 1.
+
+Example: A temperature may be described as 0.7 Hot and 0.3 Warm. These
+values represent degrees of membership, not probabilities.
+
+Important terms: - Fuzzy Set: A set in which an element can belong
+partially. - Membership Function: A function that assigns a membership
+value between 0 and 1. - Linguistic Variable: A variable described using
+words such as Low, Medium or High. - Fuzzy Rule: An IF–THEN rule used
+for reasoning. - Fuzzification: Converts crisp input into fuzzy
+values. - Inference Engine: Applies fuzzy rules to the input. -
+Defuzzification: Converts the fuzzy result into a crisp output.
+
+Basic fuzzy logic system: Crisp Input -> Fuzzification -> Rule
+Evaluation / Inference -> Defuzzification -> Crisp Output
+
+Applications: - Washing machines - Air conditioners - Camera autofocus -
+Traffic control - Decision-support systems
+
+B. ARTIFICIAL NEURAL NETWORK (ANN)
+
+An Artificial Neural Network is a computational model inspired by the
+structure and working of biological neural networks. It consists of
+interconnected processing units called neurons.
+
+Basic structure: - Input Layer: Receives input data. - Hidden Layer(s):
+Processes information. - Output Layer: Produces the result.
+
+A neuron generally calculates a weighted sum of its inputs, adds a bias
+and passes the result through an activation function.
+
+Important terms: - Weight: Represents the strength of a connection. -
+Bias: An additional adjustable value. - Activation Function: Determines
+a neuron’s output. - Learning/Training: Adjusting weights and biases to
+reduce prediction error. - Epoch: One complete pass through the training
+dataset.
+
+Common activation functions: - Sigmoid - Tanh - ReLU - Softmax
+
+Common learning approaches: - Supervised Learning: Training with
+labelled examples. - Unsupervised Learning: Finding patterns in
+unlabelled data. - Reinforcement Learning: Learning through rewards and
+penalties.
+
+Advantages: - Learns patterns from examples. - Models complex nonlinear
+relationships. - Can generalise to unseen data when trained properly.
+
+Limitations: - Often requires sufficient training data. - Training may
+be computationally expensive. - Results can be difficult to interpret.
+
+Applications: - Image and speech recognition - Forecasting - Medical
+diagnosis support - Pattern classification - Fraud detection
+
+C. EVOLUTIONARY COMPUTING
+
+Evolutionary Computing is a family of optimisation techniques inspired
+by natural evolution. It improves a population of candidate solutions
+over repeated generations.
+
+GENETIC ALGORITHM (GA)
+
+A Genetic Algorithm is an optimisation technique inspired by natural
+selection and genetics.
+
+Main steps: 1. Encoding: Represent each candidate solution as a
+chromosome. 2. Initialisation: Generate an initial population. 3.
+Fitness Evaluation: Measure the quality of each solution. 4. Selection:
+Choose better candidates as parents. 5. Crossover: Combine parts of
+parent chromosomes to create offspring. 6. Mutation: Randomly change
+some genes to maintain diversity. 7. Replacement: Form the next
+generation. 8. Termination: Stop when a condition is met, such as a
+maximum number of generations or satisfactory fitness.
+
+Important terms: - Chromosome: Representation of a candidate solution. -
+Gene: A part of a chromosome. - Population: Collection of candidate
+solutions. - Fitness Function: Measures solution quality. - Crossover:
+Combines genetic information from parents. - Mutation: Introduces random
+variation.
+
+Advantages: - Useful for difficult search and optimisation problems. -
+Does not always require gradient information. - Can explore a large
+solution space.
+
+Limitations: - May require many evaluations. - Does not guarantee the
+global optimum. - Performance depends on parameter choices.
+
+Applications: - Scheduling - Engineering design - Feature selection -
+Route and resource optimisation
+
+D. SWARM INTELLIGENCE
+
+Swarm Intelligence is based on the collective behaviour of groups of
+simple agents, such as ants, birds or fish. Individual agents follow
+simple rules, but their interaction can produce intelligent group
+behaviour.
+
+Particle Swarm Optimization (PSO): - Inspired by the movement of bird
+flocks or fish schools. - Each candidate solution is called a
+particle. - Each particle has a position and velocity. - Particles
+update their movement using their own best-known position and the
+swarm’s best-known position. - The process continues until a stopping
+condition is reached.
+
+Ant Colony Optimization (ACO): - Inspired by how ants find paths using
+pheromone trails. - Artificial ants construct candidate solutions. -
+Better paths receive stronger pheromone reinforcement. - Pheromone
+evaporation helps prevent the system from relying permanently on poor
+paths.
+
+Applications: - Route planning - Scheduling - Network optimisation -
+Robotics
+
+5.  HYBRID SOFT COMPUTING
+
+Hybrid Soft Computing combines two or more techniques to use their
+strengths and reduce their weaknesses.
+
+Examples: - Neuro-Fuzzy System: Combines neural networks with fuzzy
+logic. Neural networks can learn or tune parameters, while fuzzy logic
+provides rule-based reasoning. - Genetic-Fuzzy System: Uses genetic
+algorithms to optimise fuzzy rules or membership functions. -
+Genetic-Neural System: Uses evolutionary algorithms to optimise neural
+network weights or architecture.
+
+Benefits: - May improve accuracy and adaptability. - Can handle
+uncertainty while learning from data. - Can solve problems that are
+difficult for a single technique.
+
+6.  APPLICATIONS OF SOFT COMPUTING
+
+-   Medical diagnosis and decision support
+-   Weather and demand forecasting
+-   Speech and handwriting recognition
+-   Industrial process control
+-   Robotics and autonomous systems
+-   Financial prediction and risk analysis
+-   Traffic management
+-   Image processing
+-   Scheduling and optimisation
+
+7.  ADVANTAGES OF SOFT COMPUTING
+
+-   Handles uncertain and incomplete data.
+-   Suitable for complex and nonlinear problems.
+-   Supports learning and adaptation.
+-   Can provide robust and near-optimal solutions.
+-   Allows different techniques to be combined.
+
+8.  LIMITATIONS OF SOFT COMPUTING
+
+-   Approximate results may not be acceptable where exact answers are
+    essential.
+-   Some methods require significant training time or computational
+    resources.
+-   Choosing suitable parameters can be difficult.
+-   Results may be hard to explain, especially in large neural networks.
+-   Performance depends on data quality and problem design.
+
+9.  QUICK REVISION
+
+-   Soft Computing: Computing with tolerance for uncertainty and
+    imprecision.
+-   Fuzzy Logic: Uses degrees of membership from 0 to 1.
+-   ANN: Learns patterns through interconnected artificial neurons.
+-   Genetic Algorithm: Uses selection, crossover and mutation.
+-   PSO: Optimisation inspired by flocking or schooling behaviour.
+-   ACO: Optimisation inspired by ant pheromone trails.
+-   Hybrid System: Combines multiple soft-computing techniques.
+-   Fuzzification: Crisp input to fuzzy values.
+-   Defuzzification: Fuzzy result to crisp output.
+-   Fitness Function: Evaluates the quality of a candidate solution.
+
+10. IMPORTANT EXAM QUESTIONS
+
+11. Define Soft Computing. Explain its characteristics.
+
+12. Differentiate between Hard Computing and Soft Computing.
+
+13. Explain the architecture and working of a Fuzzy Logic System.
+
+14. What are membership functions and fuzzy sets?
+
+15. Explain the architecture of an Artificial Neural Network.
+
+16. Differentiate between supervised and unsupervised learning.
+
+17. Explain the working steps of a Genetic Algorithm.
+
+18. Define crossover, mutation and fitness function.
+
+19. Explain Particle Swarm Optimization.
+
+20. What is Ant Colony Optimization?
+
+21. What is a Neuro-Fuzzy System? State its advantages.
+
+22. Discuss the applications, advantages and limitations of Soft
+    Computing.
+
+END OF NOTES
